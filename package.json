@@ -1,0 +1,50 @@
+{
+	"name": "@prestomedia/sql-runner",
+	"version": "1.0.1",
+	"description": "A lightweight transaction-masking wrapper around mysql2/promise that safely handles inline database expressions.",
+	"license": "MIT",
+	"author": "Prestomedia, LLC",
+	"homepage": "https://prestomedia.com/open-source/sql-runner/",
+	"repository": "https://github.com/PrestomediaLLC/sql-runner",
+	"type": "module",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js"
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "tsc"
+	},
+	"dependencies": {
+		"mysql2": "^3.22.5"
+	},
+	"devDependencies": {
+		"@types/node": "^25.9.3",
+		"typescript": "^5.0.0"
+	},
+	"keywords": [
+		"mysql",
+		"mysql2",
+		"mysql2-promise",
+		"database",
+		"sql",
+		"transaction",
+		"transaction-management",
+		"scope-masking",
+		"lexical-scoping",
+		"wrapper",
+		"typescript"
+	]
+}

@@ -1,0 +1,44 @@
+# -------------------------------------------------------------------
+# 📦 Dependency Directories & System Locks
+# -------------------------------------------------------------------
+node_modules/
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+
+# -------------------------------------------------------------------
+# 🔴 Application Caches & Build Artifacts (Angular & Astro)
+# -------------------------------------------------------------------
+.angular/
+dist/
+.astro/
+.bzl/
+
+# -------------------------------------------------------------------
+# 🔒 Local Environment Keys & Credentials (Vite, Angular, Firebase)
+# -------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.local
+
+# -------------------------------------------------------------------
+# 🔥 Firebase Operational Files & Data Connect
+# -------------------------------------------------------------------
+.firebase/
+*.log
+.dataconnect/
+
+# -------------------------------------------------------------------
+# 💻 Operating System & IDE Preferences
+# -------------------------------------------------------------------
+.idea/
+Thumbs.db
+.DS_Store
+
+# Repomix
+# npx repomix . --style xml --output repo.xml --include "@prestomedia-common/**,@prestomedia-spartan/**,free-text-editor/**,.gitignore,package-lock.json,package.json,tsconfig.json"
+.repomix/bundles.json
+repo.xml
+repomix-output.xml
