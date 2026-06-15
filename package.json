@@ -1,11 +1,17 @@
 {
 	"name": "@prestomedia/sql-runner",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A lightweight transaction-masking wrapper around mysql2/promise that safely handles inline database expressions.",
 	"license": "MIT",
 	"author": "Prestomedia, LLC",
 	"homepage": "https://prestomedia.com/open-source/sql-runner/",
-	"repository": "https://github.com/PrestomediaLLC/sql-runner",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PrestomediaLLC/sql-runner.git"
+	},
+	"bugs": {
+		"url": "https://github.com/PrestomediaLLC/sql-runner/issues"
+	},
 	"type": "module",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -21,6 +27,7 @@
 	"engines": {
 		"node": ">=18.0.0"
 	},
+	"sideEffects": false,
 	"publishConfig": {
 		"access": "public"
 	},
