@@ -1,5 +1,9 @@
 # @prestomedia/sql-runner
 
+[![npm version](https://img.shields.io/npm/v/@prestomedia/sql-runner.svg?style=flat-square)](https://www.npmjs.com/package/@prestomedia/sql-runner)
+[![npm downloads](https://img.shields.io/npm/dm/@prestomedia/sql-runner.svg?style=flat-square)](https://www.npmjs.com/package/@prestomedia/sql-runner)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
 A transaction-masking, lightweight async utility wrapper built around `mysql2/promise`. It hides the transaction boilerplate. Child functions can participate in a transaction (or not) by simply using a SqlContext parameter.
 
 ## Features
